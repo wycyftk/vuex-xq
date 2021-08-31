@@ -1,0 +1,24 @@
+{
+  "name": "vuex-xq",
+  "version": "1.0.1",
+  "description": "手写的mini-vuex",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wycyftk/vuex-xq.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wycyftk/vuex-xq/issues"
+  },
+  "homepage": "https://github.com/wycyftk/vuex-xq#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "rollup": "^2.56.3"
+  }
+}
